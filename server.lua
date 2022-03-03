@@ -22,6 +22,7 @@ AddEventHandler("darkk_ops:delete", function()
         for i,v in pairs(scenes) do
             if scenes[i].serverid == _source then
                 table.remove(scenes, i)
+                TriggerEvent("vorp:TipBottom", "Status cleared", 3000)
                 break
             end
         end
