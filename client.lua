@@ -36,12 +36,12 @@ Citizen.CreateThread(function()
     end
 end)
 
-RegisterCommand('ops', function(source, args, raw)
+RegisterCommand('status', function(source, args, raw)
     TriggerServerEvent("darkk_ops:delete")
     TriggerEvent("darkk_ops:start")
  end)
 
-RegisterCommand('cops', function(source, args, raw)
+RegisterCommand('cstatus', function(source, args, raw)
     TriggerServerEvent("darkk_ops:delete")
  end)
 
