@@ -7,6 +7,7 @@ Today we release to you, On Person Scenes. This script enables you to create mor
 - Easy to configure
 
 ## Required:
-Nothing, This is standalone
+[VORP-CORE](https://github.com/VORPCORE/VORP-Core)
 
-Discord: https://discord.gg/tyz4bqv6ta
+## Links
+[Original Creator's Discord](https://discord.gg/tyz4bqv6ta)
