@@ -11,3 +11,4 @@ Allows for the creation of Status Messages for RedM RolePlay Servers
 
 ## Links
 [Original Creator's Discord](https://discord.gg/tyz4bqv6ta)
+[Original Creator's Repo](https://github.com/Darkk999/darkk_ops)
