@@ -1,6 +1,6 @@
 # Fork of Darkk_ops
 
-Allows for the creation of Status Messages for RolePlay Servers
+Allows for the creation of Status Messages for RedM RolePlay Servers
 
 ## Features:
 - Works with onesync infinity
