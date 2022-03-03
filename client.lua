@@ -20,7 +20,7 @@ function DrawText3D(x, y, z, text)
 end
 
 Citizen.CreateThread(function()
-    TriggerServerEvent("darkk_ops:getscenes")
+    TriggerServerEvent("psn_status:getscenes")
     while true do
         Citizen.Wait(1)
         if Scenes[1] ~= nil then
@@ -37,12 +37,12 @@ Citizen.CreateThread(function()
 end)
 
 RegisterCommand('status', function(source, args, raw)
-    TriggerServerEvent("darkk_ops:delete")
-    TriggerEvent("darkk_ops:start")
+    TriggerServerEvent("psn_status:delete")
+    TriggerEvent("psn_status:start")
  end)
 
 RegisterCommand('cstatus', function(source, args, raw)
-    TriggerServerEvent("darkk_ops:delete")
+    TriggerServerEvent("psn_status:delete")
  end)
 
 RegisterNetEvent('darkk_ops:sendscenes')
@@ -62,7 +62,7 @@ AddEventHandler('darkk_ops:start', function()
         end
         if (GetOnscreenKeyboardResult()) then
             scenetext = GetOnscreenKeyboardResult()
-            TriggerServerEvent("darkk_ops:add", scenetext)
+            TriggerServerEvent("psn_status:add", scenetext)
             CancelOnscreenKeyboard()
         end
     end)
