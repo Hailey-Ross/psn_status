@@ -45,13 +45,13 @@ RegisterCommand('cstatus', function(source, args, raw)
     TriggerServerEvent("psn_status:delete")
  end)
 
-RegisterNetEvent('darkk_ops:sendscenes')
-AddEventHandler('darkk_ops:sendscenes', function(scenes)
+RegisterNetEvent('psn_status:sendscenes')
+AddEventHandler('psn_status:sendscenes', function(scenes)
     Scenes = scenes
 end)
 
-RegisterNetEvent('darkk_ops:start')
-AddEventHandler('darkk_ops:start', function()
+RegisterNetEvent('psn_status:start')
+AddEventHandler('psn_status:start', function()
     local scenetext = ""
     Citizen.CreateThread(function()
         AddTextEntry('FMMC_MPM_NA', "Add Scene Details")
