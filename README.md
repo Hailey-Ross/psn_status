@@ -7,7 +7,7 @@ A fork of [Darkk_ops](https://github.com/Darkk999/darkk_ops) which allows for th
 - Easy to configure
 - Easy to Convert to other Frameworks or disable
 
-## Required:
+## Dependencies:
 - [VORP-CORE](https://github.com/VORPCORE/VORP-Core)
 
 ## Links
