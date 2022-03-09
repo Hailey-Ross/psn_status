@@ -5,7 +5,7 @@ A fork of [Darkk_ops](https://github.com/Darkk999/darkk_ops) which allows for th
 ## Features:
 - Works with onesync infinity
 - Easy to configure
-- Easy to Convert to other Frameworks or disable
+- Easy to convert for other Frameworks or disable framework calls
 
 ## Dependencies:
 - [VORP-CORE](https://github.com/VORPCORE/VORP-Core)
