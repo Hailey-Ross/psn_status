@@ -1,7 +1,7 @@
 # PSN_STATUS
 
-A fork of [Darkk_ops](https://github.com/Darkk999/darkk_ops) by [Darkk999](https://github.com/Darkk999)  
-which allows for the creation of Status Messages on a player for RedM RolePlay Servers
+A fork of [Darkk_ops](https://github.com/Darkk999/darkk_ops) by [Darkk999](https://github.com/Darkk999) which allows for the creation  
+of Status Messages on a player for RedM RolePlay Servers
 
 ## Features:
 - Works with onesync infinity
